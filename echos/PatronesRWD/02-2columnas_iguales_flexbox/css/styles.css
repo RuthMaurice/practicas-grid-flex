@@ -43,7 +43,8 @@ h1 {
 @media (min-width: 768px){
     .dos-columnas {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between;/* para centrar de jdejatr espacio al medio*/
+        
 
     }
 
