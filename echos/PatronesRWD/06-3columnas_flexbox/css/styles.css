@@ -67,7 +67,7 @@ p {
 }
 
 .aside-1 {
-    order: -1;
+    order: -1;/**para mover la 2da columna al rpimer lugar**/
 }
 
 
