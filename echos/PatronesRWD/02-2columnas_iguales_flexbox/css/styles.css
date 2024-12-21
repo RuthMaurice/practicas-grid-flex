@@ -43,16 +43,20 @@ h1 {
 @media (min-width: 768px){
     .dos-columnas {
         display: flex;
-        justify-content: space-between;/* para centrar de jdejatr espacio al medio*/
-        
+        justify-content: space-between;/* para centrar de dejar un  espacio al medio*/
+        /*justify-conte alne a el contendo de izquiera a derecha*/
+         
+
+        /*gap:2rem;*/
 
     }
 
     .entrada-blog {
-        flex:0 0 calc(50% - 1rem);
-    }
+        flex:0 0 calc(50% - 1rem); /*lo que hqce es que separa al 50% y crea una separacon de 1 rem pero
+        para que funcione  se de be colococar antes justify-content: space-between;/*/
+
+        /*de los valores que tenen flex el primero es para agranda (0
+        el segundo es para achicar (0) y el tercer valor calc(50% - 1rem) es la base */
     
 }
-
-
 
