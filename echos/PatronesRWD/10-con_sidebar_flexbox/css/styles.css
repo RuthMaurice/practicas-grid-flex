@@ -49,3 +49,36 @@ p {
 
 
 /** CODIGO AQUI **/
+
+@media (min-width: 768px){
+    .con-sidebar{
+          display: flex;
+          justify-content: space-between;
+          gap: 2rem;
+    }
+    
+    aside {
+        flex:1; /*dice que cuando se separa los px 1 toca 1 y 3 a article*/
+    }
+    article {
+        flex:3;
+    }
+}
+
+
+
+/*otra forma*/
+@media (min-width: 768px){
+    .con-sidebar{
+          display: flex;
+          justify-content: space-between;
+         
+    }
+    
+    aside {
+        flex:0 0 calc(33.3% - 1rem);
+    }
+    article {
+        flex:0 0 calc(66.6% - 1rem);
+    }
+}
