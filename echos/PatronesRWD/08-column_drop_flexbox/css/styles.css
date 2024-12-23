@@ -52,7 +52,8 @@ p {
     .column-drop-flex {
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap;
+        flex-wrap: wrap;/*lo que hace es que s ve que no tiene espacio sigue abajo
+        en calc(50% - 1rem); no se usa este comando salen los 2 juntos  */
     }
     
 
@@ -64,7 +65,12 @@ p {
 }
 
 @media (min-width: 768px){
-    /*hola HOLA*/
+    .contenido-principal,
+    .primera,
+    .segunda{
+        flex: 0 0 calc(33.3% - 2rem)
+    }
+    
 }
 
 

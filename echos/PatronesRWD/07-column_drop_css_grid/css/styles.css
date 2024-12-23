@@ -79,11 +79,11 @@ p {
 
     .primera {
         grid-column: 2 / 3;
-        grid-row: unset;
+        grid-row: unset; 
     }
     .segunda {
         grid-column: 3 / 4;
-        grid-row: unset;
+        grid-row: unset; /*Si la propiedad no es heredable (como es el caso de grid-row), unset restablece la propiedad a su valor inicial o predeterminado*/
     }
 }
 
